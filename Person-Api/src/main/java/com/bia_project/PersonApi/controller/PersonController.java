@@ -11,6 +11,7 @@ public class PersonController {
 
     @GetMapping
     public String getBook() {
-        return "test api";
+
+        return "api test";
     }
 }
